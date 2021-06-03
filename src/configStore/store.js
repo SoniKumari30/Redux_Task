@@ -5,9 +5,9 @@ import fieldReducer from "../reducer/fieldReducer"
 
 const configureStore = () => {
   const store = createStore(
-    combineReducers({ data//s: fieldReducer }),
+    combineReducers({ datas: fieldReducer }),
     applyMiddleware(thunk)
-  )//
+  )
   return store
 }
 
