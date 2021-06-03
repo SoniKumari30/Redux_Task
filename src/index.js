@@ -7,7 +7,7 @@ const store = configureStore()
 
 
 store.subscribe(() => {
-  
+  //
 })
 
 const jsx = (
