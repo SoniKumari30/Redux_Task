@@ -7,7 +7,7 @@ class Feild extends React.Component {
     super(props)
     this.state = {
       name: "",
-    };//
+    };
   }
 
   handleChange = (e) => {
