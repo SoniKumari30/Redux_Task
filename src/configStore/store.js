@@ -7,7 +7,7 @@ const configureStore = () => {
   const store = createStore(
     combineReducers({ datas: fieldReducer }),
     applyMiddleware(thunk)
-  )
+  )//
   return store
 }
 
